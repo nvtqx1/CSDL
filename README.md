@@ -35,7 +35,7 @@ Mở IDEA → Get from VCS (màn hình Welcome) hoặc File | New | Project from
 
 ## B. Cấu hình utils.ConstantUtils
 
-- Mặc định, DB_NAME là bookshopdb, DB_USERNAME là root, DB_PASSWORD là 12345.
+- Mặc định, DB_NAME là bookshopdb, DB_USERNAME là root, DB_PASSWORD là 190305.
 - Có thể thay đổi nếu như khác.
 
 # Sơ đồ CSDL
@@ -46,7 +46,7 @@ Mở IDEA → Get from VCS (màn hình Welcome) hoặc File | New | Project from
 
 | Bảng             | Số lượng record mẫu |
 | ---------------- | ------------------- |
-| user             | 5                   |
+| user             | 1                   |
 | product          | 100                 |
 | product_review   | 150                 |
 | category         | 15                  |
