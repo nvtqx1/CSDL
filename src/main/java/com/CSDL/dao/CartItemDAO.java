@@ -1,7 +1,6 @@
-package com.CSDl.dao;
+package com.CSDL.dao;
 
 import com.CSDL.beans.CartItem;
-import com.CSDL.dao.DAO;
 import org.jdbi.v3.sqlobject.config.RegisterBeanMapper;
 import org.jdbi.v3.sqlobject.customizer.Bind;
 import org.jdbi.v3.sqlobject.customizer.BindBean;
