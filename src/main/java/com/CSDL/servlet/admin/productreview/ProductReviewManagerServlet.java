@@ -1,4 +1,4 @@
 package com.CSDL.servlet.admin.productreview;
 
-public class ProductReviewDetailDetailServlet {
+public class ProductReviewManagerServlet {
 }
