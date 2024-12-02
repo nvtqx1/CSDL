@@ -1,7 +1,7 @@
 package com.CSDL.service;
 
-import com.bookshopweb.beans.CartItem;
-import com.bookshopweb.dao.CartItemDAO;
+import com.CSDL.beans.CartItem;
+import com.CSDL.dao.CartItemDAO;
 
 import java.util.List;
 import java.util.Optional;
