@@ -1,6 +1,6 @@
 package com.CSDL.dao;
 
-import com.bookshopweb.beans.ProductReview;
+import com.CSDL.beans.ProductReview;
 import org.jdbi.v3.sqlobject.config.RegisterBeanMapper;
 import org.jdbi.v3.sqlobject.customizer.Bind;
 import org.jdbi.v3.sqlobject.customizer.BindBean;

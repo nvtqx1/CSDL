@@ -1,6 +1,6 @@
 package com.CSDL.dao;
 
-import com.bookshopweb.beans.User;
+import com.CSDL.beans.User;
 import org.jdbi.v3.sqlobject.config.RegisterBeanMapper;
 import org.jdbi.v3.sqlobject.customizer.Bind;
 import org.jdbi.v3.sqlobject.customizer.BindBean;
