@@ -16,11 +16,12 @@ Dự án Java Web xây dựng một Shop Bán Sách
 
 ### 1. Nạp hình
 
-Tạo thư mục C:/var/webapp/images và giải nén tất cả hình từ file [var-webapp-images.zip](https://github.com/markiusphan/BookShopWeb/blob/main/init/var-webapp-images.zip) vào thư mục này.
+Tạo thư mục E:\CSDL\image và giải nén tất cả hình từ file [var-webapp-images.zip](https://github.com/markiusphan/BookShopWeb/blob/main/init/var-webapp-images.zip) vào thư mục này.
+Thư mục image có địa chỉ tại file chứa project và thay đại chỉ tại utils.ConstantUtils
 
 ### 2. Tạo database
 
-Mở MySQL Workbench → Open SQL Script → Execute [bookshopdb.sql](https://github.com/markiusphan/BookShopWeb/blob/main/init/bookshopdb.sql)
+Mở MySQL Workbench → Open SQL Script → Execute [bookshopdb.sql](https://github.com/nvtqx1/CSDL/blob/master/init/bookshopdb.sql)
 
 ### 3. Nạp project vào IDEA
 
@@ -41,21 +42,6 @@ Mở IDEA → Get from VCS (màn hình Welcome) hoặc File | New | Project from
 # Sơ đồ CSDL
 
 <img align="center" src="/csdl.png" >
-
-## Dữ liệu mẫu
-
-| Bảng             | Số lượng record mẫu |
-| ---------------- | ------------------- |
-| user             | 1                   |
-| product          | 100                 |
-| product_review   | 150                 |
-| category         | 15                  |
-| product_category | 100                 |
-| cart             | 2                   |
-| cart_item        | 5                   |
-| orders           | 25                  |
-| order_item       | 60                  |
-| wishlist_item    | 30                  |
 
 # Phần mềm
 
