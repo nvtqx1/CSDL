@@ -82,25 +82,30 @@
             <strong><i class="bi bi-list"></i> Danh mục sản phẩm</strong>
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Sách giáo khoa</a></li>
-            <li><a class="dropdown-item" href="#">Sách khoa học</a></li>
-            <li><a class="dropdown-item" href="#">Truyện tranh</a></li>
-            <li><a class="dropdown-item" href="#">Tiểu thuyết</a></li>
-            <li>
-              <hr class="dropdown-divider">
-            </li>
-            <li><a class="dropdown-item" href="#">Tất cả danh mục</a></li>
+            <li><a class="dropdown-item" href="${pageContext.request.contextPath}/category?id=1">Sách giáo khoa</a></li>
+            <li><a class="dropdown-item" href="${pageContext.request.contextPath}/category?id=2">Sách khoa học</a></li>
+            <li><a class="dropdown-item" href="${pageContext.request.contextPath}/category?id=3">Truyện tranh</a></li>
+            <li><a class="dropdown-item" href="${pageContext.request.contextPath}/category?id=4">Tiểu thuyết</a></li>
+            <li><a class="dropdown-item" href="${pageContext.request.contextPath}/category?id=5">Truyện Ngắn</a></li>
+            <li><a class="dropdown-item" href="${pageContext.request.contextPath}/category?id=6">Tuyện Dài</a></li>
+            <li><a class="dropdown-item" href="${pageContext.request.contextPath}/category?id=7">Sách Giáo Trình</a></li>
+            <li><a class="dropdown-item" href="${pageContext.request.contextPath}/category?id=8">Báo in</a></li>
+            <li><a class="dropdown-item" href="${pageContext.request.contextPath}/category?id=9">Tạp chí</a></li>
+            <li><a class="dropdown-item" href="${pageContext.request.contextPath}/category?id=10">Tập san</a></li>
+            <li><a class="dropdown-item" href="${pageContext.request.contextPath}/category?id=11">Sách nấu ăn</a></li>
+            <li><a class="dropdown-item" href="${pageContext.request.contextPath}/category?id=12">Sách kỹ thuật</a></li>
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Sản phẩm mới</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Sản phẩm bán chạy</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Khuyến mãi</a>
-        </li>
+          <!--            <a class="nav-link" href="#">Sản phẩm mới</a>-->
+          <!--          </li>-->
+
+          <!--          <li class="nav-item">-->
+          <!--            <a class="nav-link" href="#">Sản phẩm bán chạy</a>-->
+          <!--          </li>-->
+          <!--          <li class="nav-item">-->
+          <!--            <a class="nav-link" href="#">Khuyến mãi</a>-->
+          <!--          </li>-->
       </ul>
       <a class="btn btn-light me-2" href="#" role="button">Đăng ký</a>
       <a class="btn btn-primary" href="#" role="button">Đăng nhập</a>
@@ -108,11 +113,12 @@
   </div> <!-- container.// -->
 </nav> <!-- navbar-main.// -->
 
+
 <section class="section-content mb-2">
   <div class="container">
     <header class="section-heading py-4 d-flex justify-content-between">
       <h3 class="section-title">Danh mục sản phẩm</h3>
-      <a class="btn btn-secondary" href="#" role="button" style="height: fit-content;">Xem tất cả</a>
+<!--      <a class="btn btn-secondary" href="${pageContext.request.contextPath}/allbook" role="button" style="height: fit-content;">Xem tất cả</a>-->
     </header> <!-- section-heading.// -->
     <div class="row item-grid">
       <div class="col-lg-3 col-md-6">
@@ -267,7 +273,7 @@
   <div class="container">
     <header class="section-heading py-4 d-flex justify-content-between">
       <h3 class="section-title">Sản phẩm mới nhất</h3>
-      <a class="btn btn-secondary" href="#" role="button" style="height: fit-content;">Xem tất cả</a>
+      <a class="btn btn-secondary" href="${pageContext.request.contextPath}/allbook" role="button" style="height: fit-content;">Xem tất cả</a>
     </header> <!-- section-heading.// -->
     <div class="row item-grid">
       <div class="col-lg-3 col-md-6">
@@ -447,7 +453,7 @@
   </section> <!-- footer-top.// -->
 
   <section class="footer-bottom text-center bg-light border-top py-3">
-    <div class="container-fluid">© 2024 — Shop Bán Sách</div> <!-- container-fluid.// -->
+    <div class="container-fluid">© 2021 — Shop Bán Sách</div> <!-- container-fluid.// -->
   </section> <!-- footer-bottom.// -->
 </footer> <!-- section-footer.// -->
 
