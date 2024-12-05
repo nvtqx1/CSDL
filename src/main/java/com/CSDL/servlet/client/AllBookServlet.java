@@ -16,7 +16,7 @@ import java.util.Optional;
 public class AllBookServlet extends HttpServlet {
     private final ProductService productService = new ProductService();
 
-    private static final int PRODUCTS_PER_PAGE = 15;
+    private static final int PRODUCTS_PER_PAGE = 16;
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
