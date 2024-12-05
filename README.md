@@ -16,7 +16,7 @@ Dự án Java Web xây dựng một Shop Bán Sách
 
 ### 1. Nạp hình
 
-Tạo thư mục E:\CSDL\image và giải nén tất cả hình từ file [var-webapp-images.zip](https://github.com/markiusphan/BookShopWeb/blob/main/init/var-webapp-images.zip) vào thư mục này.
+Tạo thư mục E:\CSDL\image và giải nén tất cả hình từ https://github.com/nvtqx1/CSDL/blob/master/init/bookshopdb.sql vào thư mục này.
 Thư mục image có địa chỉ tại file chứa project và thay đại chỉ tại utils.ConstantUtils
 
 ### 2. Tạo database
@@ -25,7 +25,7 @@ Mở MySQL Workbench → Open SQL Script → Execute [bookshopdb.sql](https://gi
 
 ### 3. Nạp project vào IDEA
 
-Mở IDEA → Get from VCS (màn hình Welcome) hoặc File | New | Project from Version Control (màn hình bình thường) → Clone project theo URL: https://github.com/markiusphan/BookShopWeb.git
+Mở IDEA → Get from VCS (màn hình Welcome) hoặc File | New | Project from Version Control (màn hình bình thường) → Clone project theo URL:(https://github.com/nvtqx1/CSDL.git)
 
 ### 4. Cấu hình Tomcat
 
