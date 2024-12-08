@@ -16,7 +16,7 @@ Dự án Java Web xây dựng một Shop Bán Sách
 
 ### 1. Nạp hình
 
-Tạo thư mục E:\CSDL\image và giải nén tất cả hình từ https://github.com/nvtqx1/CSDL/blob/master/init/bookshopdb.sql vào thư mục này.
+Tạo thư mục E:\CSDL\image và giải nén tất cả hình từ E:\CSDL\init\var-webapp-images.zip vào thư mục này.
 Thư mục image có địa chỉ tại file chứa project và thay đại chỉ tại utils.ConstantUtils
 
 ### 2. Tạo database
