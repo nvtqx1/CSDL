@@ -15,6 +15,5 @@ public interface ConstantUtils {
         String DB_USERNAME = "avnadmin";
         String DB_PASSWORD = "AVNS_7QkJvtymr6rvTwhhvg8";
         String IMAGE_PATH = "/CSDL/var/webapp/images";
-
 }
 
