@@ -14,6 +14,6 @@ public interface ConstantUtils {
         String DB_NAME = "bookshopdb";
         String DB_USERNAME = "avnadmin";
         String DB_PASSWORD = "AVNS_7QkJvtymr6rvTwhhvg8";
-        String IMAGE_PATH = String.valueOf(System.getProperty("user.dir")).substring(0,System.getProperty("user.dir").length()-3)+"webapps\\ROOT\\image";
+        String IMAGE_PATH = "\\usr\\local\\tomcat\\webapps\\ROOT\\image";
 }
 
