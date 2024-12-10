@@ -14,9 +14,8 @@ FROM tomcat:9-jdk21-openjdk
 COPY --from=build target/BookShopWeb-1.0-SNAPSHOT/. /usr/local/tomcat/webapps/ROOT/
 
 # Sao chép thư mục chứa hình ảnh cơ sở dữ liệu từ host vào container
-# Đảm bảo thư mục `CSDL\image` trên máy chủ được gắn vào /app/data trong container
-# Sử dụng bind mount
-COPY CSDL/image /app/data
+# Đảm bảo thư mục `CSDL/image` trên máy chủ được gắn vào /image trong container
+COPY CSDL/image /image
 
 # Mở cổng 8080 để có thể truy cập ứng dụng từ bên ngoài
 EXPOSE 8080
