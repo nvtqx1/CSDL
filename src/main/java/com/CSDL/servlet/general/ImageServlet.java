@@ -31,7 +31,7 @@ public class ImageServlet extends HttpServlet {
 
         // Define base path somehow. You can define it as init-param of the servlet.
         this.imagePath = ConstantUtils.IMAGE_PATH;
-        System.out.println(imagePath);
+
         // In a Windows environment with the Applicationserver running on the
         // c: volume, the above path is exactly the same as "c:\var\webapp\images".
         // In Linux/Mac/UNIX, it is just straightforward "/var/webapp/images".
