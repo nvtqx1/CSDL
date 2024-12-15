@@ -70,25 +70,29 @@
             <strong><i class="bi bi-list"></i> Danh mục sản phẩm</strong>
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Sách giáo khoa</a></li>
-            <li><a class="dropdown-item" href="#">Sách khoa học</a></li>
-            <li><a class="dropdown-item" href="#">Truyện tranh</a></li>
-            <li><a class="dropdown-item" href="#">Tiểu thuyết</a></li>
-            <li>
-              <hr class="dropdown-divider">
-            </li>
-            <li><a class="dropdown-item" href="#">Tất cả danh mục</a></li>
+            <li><a class="dropdown-item" href="${pageContext.request.contextPath}/category?id=1">Sách giáo khoa</a></li>
+            <li><a class="dropdown-item" href="${pageContext.request.contextPath}/category?id=2">Sách khoa học</a></li>
+            <li><a class="dropdown-item" href="${pageContext.request.contextPath}/category?id=3">Truyện tranh</a></li>
+            <li><a class="dropdown-item" href="${pageContext.request.contextPath}/category?id=4">Tiểu thuyết</a></li>
+            <li><a class="dropdown-item" href="${pageContext.request.contextPath}/category?id=5">Truyện Ngắn</a></li>
+            <li><a class="dropdown-item" href="${pageContext.request.contextPath}/category?id=6">Tuyện Dài</a></li>
+            <li><a class="dropdown-item" href="${pageContext.request.contextPath}/category?id=7">Sách Giáo Trình</a></li>
+            <li><a class="dropdown-item" href="${pageContext.request.contextPath}/category?id=8">Báo in</a></li>
+            <li><a class="dropdown-item" href="${pageContext.request.contextPath}/category?id=9">Tạp chí</a></li>
+            <li><a class="dropdown-item" href="${pageContext.request.contextPath}/category?id=10">Tập san</a></li>
+            <li><a class="dropdown-item" href="${pageContext.request.contextPath}/category?id=11">Sách nấu ăn</a></li>
+            <li><a class="dropdown-item" href="${pageContext.request.contextPath}/category?id=12">Sách kỹ thuật</a></li>
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Sản phẩm mới</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Sản phẩm bán chạy</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Khuyến mãi</a>
-        </li>
+          <%--          <a class="nav-link" href="#">Sản phẩm mới</a>--%>
+          <%--        </li>--%>
+          <%--        <li class="nav-item">--%>
+          <%--          <a class="nav-link" href="#">Sản phẩm bán chạy</a>--%>
+          <%--        </li>--%>
+          <%--        <li class="nav-item">--%>
+          <%--          <a class="nav-link" href="#">Khuyến mãi</a>--%>
+          <%--        </li>--%>
       </ul>
       <c:choose>
         <c:when test="${not empty sessionScope.currentUser}">
