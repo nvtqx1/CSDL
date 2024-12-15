@@ -76,8 +76,8 @@
                               <c:otherwise>
                                 <span class="price">
                                   <fmt:formatNumber
-                                    pattern="#,##0"
-                                    value="${wishlistItem.product.price * (100 - wishlistItem.product.discount) / 100}"/>₫
+                                          pattern="#,##0"
+                                          value="${wishlistItem.product.price * (100 - wishlistItem.product.discount) / 100}"/>₫
                                 </span>
                                 <span class="ms-2 text-muted text-decoration-line-through">
                                   <fmt:formatNumber pattern="#,##0" value="${wishlistItem.product.price}"/>₫
