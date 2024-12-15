@@ -3,17 +3,17 @@
 <html lang="vi">
 
 <head>
-    <jsp:include page="_meta.jsp"/>
-    <title>401</title>
+  <jsp:include page="_meta.jsp"/>
+  <title>401</title>
 </head>
 
 <body>
 <jsp:include page="_headerAdmin.jsp"/>
 
 <section class="section-content padding-y">
-    <div class="container">
-        Không được phép truy cập khu vực này
-    </div> <!-- container.// -->
+  <div class="container">
+    Không được phép truy cập khu vực này
+  </div> <!-- container.// -->
 </section> <!-- section-content.// -->
 
 <jsp:include page="_footerAdmin.jsp"/>
