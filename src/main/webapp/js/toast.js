@@ -1,6 +1,6 @@
 // COMPONENTS
 export function toastComponent(message, color = "primary") {
-    return `
+  return `
     <div class="toast align-items-center text-white bg-${color} border-0" role="alert" aria-live="assertive" aria-atomic="true">
       <div class="d-flex">
         <div class="toast-body">
@@ -14,19 +14,19 @@ export function toastComponent(message, color = "primary") {
 
 // UTILS
 function _showToast() {
-    const hiddenToastElements = [].slice.call(document.querySelectorAll(".toast.hide"));
-    hiddenToastElements.forEach((hiddenToastElement) => hiddenToastElement.remove());
+  const hiddenToastElements = [].slice.call(document.querySelectorAll(".toast.hide"));
+  hiddenToastElements.forEach((hiddenToastElement) => hiddenToastElement.remove());
 
-    const toastElements = [].slice.call(document.querySelectorAll(".toast:not(.hide)"));
-    const toasts = toastElements.map((toastElement) => new bootstrap.Toast(toastElement));
-    toasts.forEach((toast) => toast.show());
+  const toastElements = [].slice.call(document.querySelectorAll(".toast:not(.hide)"));
+  const toasts = toastElements.map((toastElement) => new bootstrap.Toast(toastElement));
+  toasts.forEach((toast) => toast.show());
 }
 
 // MAIN
 function createToast(toastComponent) {
-    const toastContainerElement = document.querySelector(".toast-container");
-    toastContainerElement.insertAdjacentHTML("beforeend", toastComponent);
-    _showToast();
+  const toastContainerElement = document.querySelector(".toast-container");
+  toastContainerElement.insertAdjacentHTML("beforeend", toastComponent);
+  _showToast();
 }
 
 export default createToast;
