@@ -53,3 +53,9 @@ Mở IDEA → Get from VCS (màn hình Welcome) hoặc File | New | Project from
 
 - Tải ở: https://archive.apache.org/dist/tomcat/tomcat-9/v9.0.48/bin/ (apache-tomcat-9.0.48.zip cho Windows và apache-tomcat-9.0.48.tar.gz cho Mac)
 - Mở IDEA và thêm vào File | Settings | Build, Execution, Deployment | Application Servers > [+] Tomcat Server (Tomcat Home trỏ đến thư mục Tomcat, ví dụ: apache-tomcat-9.0.48)
+- 
+
+Link web của user: https://csdl-1-st91.onrender.com/
+Link web của admin: https://csdl-1-st91.onrender.com/admin
+Lưu ý : Vì sever yếu nên quá trình tải web sẽ khá là lâu trong khoảng 30s đến 1 phút hoặc có thể hơn
+
